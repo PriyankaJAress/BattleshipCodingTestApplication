@@ -63,6 +63,8 @@ namespace BattleShipCodingTest.Shared.Service
             position = 'A';
             shipHit = null;
             board = null;
+            totalShipsDestroyed = 0;
+            matrixToDisplay = null;
         }
 
         public void SetBoardSize(int boardSize)
@@ -223,7 +225,7 @@ namespace BattleShipCodingTest.Shared.Service
                     else
                     {
                         Console.WriteLine($"\n\u001b[37m You Miss the target");
-                        board[x,y]= shipHit[x,y];
+                        board[x, y] = shipHit[x, y];
                         shipHit[x, y] = "[XX]";
                         UpdateBoard();
                         return false;
@@ -248,7 +250,7 @@ namespace BattleShipCodingTest.Shared.Service
                 var (x, y) = position;
                 if (!shipHit[x, y].Contains($"[{ship.Name}]"))
                 {
-                    isShipDestroyed = true;                 
+                    isShipDestroyed = true;
                 }
             }
             if (isShipDestroyed)
