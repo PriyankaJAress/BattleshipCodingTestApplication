@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "4f0936b3-8ad4-4d56-af22-97efae1bd27f",
+		"name": "Battleship",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29674701",
+		"_collection_link": "https://galactic-station-837679.postman.co/workspace/Team-Workspace~d75e6b96-a3ee-4b26-8779-e379a5217979/collection/29674701-4f0936b3-8ad4-4d56-af22-97efae1bd27f?action=share&source=collection_link&creator=29674701"
+	},
+	"item": [
+		{
+			"name": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/CreateBoard/{BoardSize}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/CreateBoard/{BoardSize}",
+					"protocol": "https",
+					"host": [
+						"priyankajbattleshipcodingtest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"CreateBoard",
+						"{BoardSize}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/CreateShip/{TotalShips}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/CreateShip/{TotalShips}",
+					"protocol": "https",
+					"host": [
+						"priyankajbattleshipcodingtest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"CreateShip",
+						"{TotalShips}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/DisplayBoard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/DisplayBoard",
+					"protocol": "https",
+					"host": [
+						"priyankajbattleshipcodingtest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"DisplayBoard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/AttackShip/{Position} ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/AttackShip/{Position} ",
+					"protocol": "https",
+					"host": [
+						"priyankajbattleshipcodingtest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"AttackShip",
+						"{Position} "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/RestartGame",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://priyankajbattleshipcodingtest.azurewebsites.net/api/RestartGame",
+					"protocol": "https",
+					"host": [
+						"priyankajbattleshipcodingtest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"RestartGame"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
